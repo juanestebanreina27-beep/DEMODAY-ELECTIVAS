@@ -14,16 +14,16 @@ export default function Capabilities() {
             viewport={{ once: true }}
             className="text-4xl md:text-5xl font-bold mb-8 leading-tight"
           >
-            Built for the <br />
-            <span className="text-muted">future of creation.</span>
+            Formando a los <br />
+            <span className="text-muted">líderes del mañana.</span>
           </motion.h2>
 
           <div className="space-y-6">
             {[
-              "High-fidelity image synthesis",
-              "Low-latency inference pipelines",
-              "Custom LoRA and checkpoint training",
-              "Multi-modal input support"
+              "Excelencia académica y técnica",
+              "Proyectos multidisciplinarios",
+              "Mentoría por expertos de la industria",
+              "Enfoque en sostenibilidad e innovación"
             ].map((item, i) => (
               <motion.div
                 key={i}
@@ -50,7 +50,7 @@ export default function Capabilities() {
             {/* Minimalist Visual Representation of "Neural Grid" */}
             <div className="absolute inset-0 opacity-20 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]" />
             <div className="relative z-10 p-12 text-center">
-                <div className="text-8xl font-bold text-white/10 select-none">STABLE</div>
+                <div className="text-6xl md:text-8xl font-bold text-white/10 select-none uppercase tracking-widest">El Bosque</div>
             </div>
           </motion.div>
           {/* Accent Glow */}

@@ -17,17 +17,16 @@ export default function Hero() {
           className="inline-flex items-center gap-2 px-3 py-1 rounded-full border border-white/10 bg-white/5 text-xs font-medium text-muted mb-8"
         >
           <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
-          AVAILABLE NOW
+          19 DE MAYO
         </motion.div>
 
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.1, ease: "easeOut" }}
-          className="text-5xl md:text-8xl font-bold tracking-tight mb-8"
+          className="text-6xl md:text-9xl font-bold tracking-tighter mb-8"
         >
-          Visual <br />
-          <span className="text-muted">Intelligence</span>
+          DEMO<span className="text-muted">DAY</span>
         </motion.h1>
 
         <motion.p
@@ -36,7 +35,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
           className="text-lg md:text-xl text-muted max-w-xl mx-auto mb-10 text-balance leading-relaxed"
         >
-          The next generation of creative tools. STABLE provides the infrastructure for high-performance visual models.
+          Descubre el futuro de la innovación en la <span className="text-white font-medium">Universidad El Bosque</span>. Donde los grandes proyectos cobran vida.
         </motion.p>
 
         <motion.div
@@ -45,12 +44,12 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <button className="px-8 py-4 bg-white text-black font-semibold rounded-full hover:bg-white/90 transition-colors flex items-center gap-2 group">
-            Get Started
+          <button className="px-10 py-4 bg-white text-black font-semibold rounded-full hover:bg-white/90 transition-colors flex items-center gap-2 group">
+            Registrarse
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </button>
-          <button className="px-8 py-4 border border-white/10 bg-white/5 font-semibold rounded-full hover:bg-white/10 transition-colors">
-            Documentation
+          <button className="px-10 py-4 border border-white/10 bg-white/5 font-semibold rounded-full hover:bg-white/10 transition-colors">
+            Cronograma
           </button>
         </motion.div>
       </div>

@@ -5,26 +5,26 @@ import { Layers, Shield, Zap, Sparkles } from 'lucide-react'
 
 const features = [
   {
-    title: "Instant Processing",
-    description: "Render complex visual models in milliseconds with our distributed GPU cloud.",
+    title: "Innovación Técnica",
+    description: "Proyectos que empujan los límites de la tecnología actual con implementaciones robustas.",
     icon: Zap,
     delay: 0.1
   },
   {
-    title: "Neural Refinement",
-    description: "Automatically upscale and refine visual outputs using advanced latent consistency.",
+    title: "Diseño de Usuario",
+    description: "Interfaces intuitivas y experiencias centradas en el ser humano que resuelven problemas reales.",
     icon: Sparkles,
     delay: 0.2
   },
   {
-    title: "Secure Infrastructure",
-    description: "Enterprise-grade encryption and isolated compute environments for your private models.",
+    title: "Impacto Social",
+    description: "Soluciones diseñadas para generar un cambio positivo en nuestra comunidad y el mundo.",
     icon: Shield,
     delay: 0.3
   },
   {
-    title: "Layered Control",
-    description: "Fine-tune every aspect of your generations with surgical precision and depth.",
+    title: "Pensamiento Crítico",
+    description: "Investigación profunda y análisis detallado detrás de cada propuesta presentada.",
     icon: Layers,
     delay: 0.4
   }
