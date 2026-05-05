@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const judges = [
   {
@@ -63,10 +64,11 @@ export default function Judges() {
             className="group"
           >
             <div className="relative aspect-square rounded-3xl overflow-hidden mb-6 border border-white/10 glass-card">
-              <img
+              <Image
                 src={judge.photo}
                 alt={judge.name}
-                className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
+                fill
+                className="object-cover transition-transform duration-700 group-hover:scale-110 grayscale group-hover:grayscale-0"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
             </div>
